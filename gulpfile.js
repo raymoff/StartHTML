@@ -1,6 +1,6 @@
-const syntax = 'scss'; //Syntax: sass or scss
+let syntax = 'scss'; //Syntax: sass or scss
 
-const gulp          = require('gulp'),
+let gulp          = require('gulp'),
 			gutil         = require('gulp-util'),
 			sass          = require('gulp-sass'),
 			cleancss      = require('gulp-clean-css'),

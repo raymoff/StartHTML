@@ -3,12 +3,12 @@
 @import "libs";
 
 ::placeholder {
-	color: #666;
+	color: $gray;
 }
 
 ::selection {
 	background-color: $accent;
-	color: #fff;
+	color: $white;
 }
 
 // Converting to rem (optional, not recommended when using full version of Bootstrap)
@@ -26,7 +26,7 @@ body {
 	overflow-x: hidden;
 	color: $text;
 	input, textarea {
-		border: #666 1px solid;
+		border: $gray 1px solid;
 		outline: none;
 		&:focus:required:invalid {
 			border-color: red;
