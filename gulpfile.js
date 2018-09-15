@@ -46,6 +46,7 @@ gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/modernizr/modernizr-3.6.0.min.js',
 		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/font-awesome/js/all.min.js',
 		'app/libs/smooth-scroll/smooth-scroll.min.js',
 		'app/libs/plugins-scroll/plugins-scroll.js',
 		// 'app/libs/bootstrap/js/bootstrap.bundle.min.js', // Bootstrap bundle.js opt
